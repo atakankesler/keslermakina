@@ -1,7 +1,4 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-
-// https://vite.dev/config/
 export default defineConfig({
+  base: '/keslermakina/', // Buraya GitHub'daki repo isminizi yazmalısınız
   plugins: [react()],
 })
